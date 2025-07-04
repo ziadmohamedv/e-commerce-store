@@ -2,6 +2,56 @@
 
 I built this console-based e-commerce application to practice C# programming concepts while creating something practical. It simulates a basic online store where you can browse products, manage a cart, and complete purchases - all through a text interface.
 
+# Installation and Setup
+
+## Prerequisites
+- [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0) or later
+- A terminal or command prompt
+
+## Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd e-commerce-store
+   ```
+
+2. **Restore dependencies**
+   ```bash
+   dotnet restore
+   ```
+
+3. **Build the project**
+   ```bash
+   dotnet build
+   ```
+
+## Running the Application
+
+### Option 1: Run directly
+```bash
+dotnet run
+```
+
+### Option 2: Build and run executable
+```bash
+dotnet build --configuration Release
+dotnet run --configuration Release
+```
+
+### Option 3: Run from executable (after building)
+```bash
+dotnet build
+./bin/Debug/net9.0/E-Commerce.exe
+```
+
+## Development
+
+To run in development mode with hot reload:
+```bash
+dotnet watch run
+```
+
 # Core Features
 
 # 1. Product Catalog
